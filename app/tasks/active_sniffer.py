@@ -27,7 +27,7 @@ def active_sniffer_after_run(*args, **kwargs):
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     logger.info(f"active_sniffer.py执行一次定时任务 {now} ......")
     try:
-        r = requests.get(f'http://192.168.1.100:{settings.PORT}/sniffer?active=1', timeout=2)
+        r = requests.get(f'http://192.168.1.113:{settings.PORT}/sniffer?active=1', timeout=2)
         msg += r.text
     except Exception as e:
         msg += f'激活嗅探器发生错误:{e}'

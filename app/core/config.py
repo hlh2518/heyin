@@ -19,8 +19,8 @@ class Settings(BaseSettings):
     ECHO_SQL: bool = False  # 是否打印sql语句
     AUTO_ADD_PERM_LABEL: bool = False  # 是否在访问到有权限标识的路径的时候自动添加权限标识到数据库
 
-    API_DOMAIN: str = "http://192.168.1.100:7129"  # 本api程序的域名
-    WEB_DOMAIN: str = "http://192.168.1.100:2518"  # 前端vue程序的域名
+    API_DOMAIN: str = "http://192.168.1.113:7129"  # 本api程序的域名
+    WEB_DOMAIN: str = "http://192.168.1.113:2518"  # 前端vue程序的域名
 
     # 跨域
     BACKEND_CORS_ORIGINS: List[str] = ['*']
@@ -29,7 +29,7 @@ class Settings(BaseSettings):
     JWT_ALGORITHM: str = "HS256"
 
     # FastAPI (Only takes effect in run "python main.py". Don't want to take effect when running with "uvicorn/gunicorn main:app")
-    HOST: IPvAnyAddress = "192.168.1.100"  # 允许访问程序的ip， 只允许本地访问使用 127.0.0.1， 只在直接允许程序时候生效
+    HOST: IPvAnyAddress = "192.168.1.113"  # 允许访问程序的ip， 只允许本地访问使用 127.0.0.1， 只在直接允许程序时候生效
     PORT: int = 2518  # 程序端口，只在直接运行程序的时候生效
     RELOAD: bool = True  # 是否自动重启，只在直接运行程序时候生效
     DEBUG: bool = False  # 是否调试模式
@@ -145,7 +145,7 @@ class Settings(BaseSettings):
     # pip依赖代理
     PIP_PROXY = "https://mirrors.cloud.tencent.com/pypi/simple"
     DEFAULT_SNIFFER = 'hipy-sniffer'  # selenium,hipy-sniffer,playwright 三选一
-    SNIFFER_URL = 'http://192.168.1.100:2699'  # hipy-sniffer的主页
+    SNIFFER_URL = 'http://192.168.1.113:2699'  # hipy-sniffer的主页
 
     # PIP_PROXY = "https://pypi.douban.com/simple/"
 

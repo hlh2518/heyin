@@ -57,7 +57,7 @@ var rule = {
         "User-Agent":"PC_UA",
         "Referer": "https://www.bilibili.com",
         //"Cookie":"https://d.kstore.space/download/6296/cookie.txt"
-        "Cookie":"http://192.168.1.100:7129/files/txt/cookiehe.txt"
+        "Cookie":"http://192.168.1.113:7129/files/txt/cookiehe.txt"
     },
     timeout:5000,
     limit:8,

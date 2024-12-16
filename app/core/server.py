@@ -113,7 +113,7 @@ class InitializeApp(object):
                 logger.info(
                     f'如果出现 It looks like you are using Playwright Sync API inside the asyncio loop. 可以忽略此错误，但是需要手动访问 /sniffer?active=1 进行激活')
             logger.info(f'服务器参数:{get_server_info()}')
-            logger.info(f'本地地址: http://192.168.1.100:{settings.PORT}')
+            logger.info(f'本地地址: http://192.168.1.113:{settings.PORT}')
             logger.info(f'局域网地址: http://{get_host_ip()}:{settings.PORT}')
 
         @app.on_event('shutdown')

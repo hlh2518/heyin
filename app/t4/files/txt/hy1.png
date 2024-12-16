@@ -2,7 +2,7 @@
     "wallpaper":"https://tuapi.eees.cc/api.php?category=fengjing&type=302",
     "hipy_sites_count":31,
     "mode":1,
-          "spider":"http://192.168.1.100:7129/files/jar/heyin.jar;md5;77afa4f5b39be5550e2084012f4a65d8",
+          "spider":"http://192.168.1.113:7129/files/jar/heyin.jar;md5;77afa4f5b39be5550e2084012f4a65d8",
     "homepage":"https://github.com/hjdhnx/hipy-server",
     "lives":[
         {
@@ -11,7 +11,7 @@
                 {
                     "name":"直播",
                     "urls":[
-                        "proxy://do=live&type=txt&ext=http://192.168.1.100:7129/files/txt/zb.m3u"
+                        "proxy://do=live&type=txt&ext=http://192.168.1.113:7129/files/txt/zb.m3u"
                     ]
                 }
             ]
@@ -22,133 +22,133 @@
             "key":"hipy_t3_cntv央视",
             "name":"cntv央视(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/hipy/cntv央视.py",
+            "api":"http://192.168.1.113:7129/files/hipy/cntv央视.py",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":0,
-            "ext":"http://192.168.1.100:7129/files/hipy/cntv央视.json"
+            "ext":"http://192.168.1.113:7129/files/hipy/cntv央视.json"
         },
         {
             "key":"drpy_t3_爱奇艺",
             "name":"爱奇艺(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":1,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/爱奇艺.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/爱奇艺.js"
         },
         {
             "key":"drpy_t3_优酷",
             "name":"优酷(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":2,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/优酷.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/优酷.js"
         },
         {
             "key":"drpy_t3_腾讯视频",
             "name":"腾讯视频(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":3,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/腾讯视频.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/腾讯视频.js"
         },
         {
             "key":"drpy_t3_芒果TV",
             "name":"芒果TV(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":4,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/芒果TV.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/芒果TV.js"
         },
 {
             "key":"drpy_t3_腾讯视频2",
             "name":"腾讯视频2(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":3,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/腾讯视频2.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/腾讯视频2.js"
         },
 {
             "key":"drpy_t3_芒果视频",
             "name":"芒果视频(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":3,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/芒果视频.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/芒果视频.js"
         },
         {
             "key":"drpy_t3_360影视",
             "name":"360影视(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":0,
             "order_num":15,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/360影视.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/360影视.js"
         },
         {
             "key":"drpy_t3_荐片",
             "name":"荐片(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":11,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/荐片.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/荐片.js"
         },
         {
             "key":"drpy_t3_B站资源",
             "name":"B站资源(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":6,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/B站资源.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/B站资源.js"
         },
         {
             "key":"drpy_t3_HE影哔哩",
             "name":"HE影哔哩(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":7,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/HE影哔哩.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/HE影哔哩.js"
         },
         {
             "key":"drpy_t3_HE影综合",
             "name":"HE影综合(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":8,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/HE影综合.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/HE影综合.js"
         },
         
 {
@@ -159,7 +159,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "http://192.168.1.100:7129/files/jar/fan.jar;md5;5AEE1FF968A3DC5CBBF225399E9441E9",
+   "jar": "http://192.168.1.113:7129/files/jar/fan.jar;md5;5AEE1FF968A3DC5CBBF225399E9441E9",
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto",
@@ -175,18 +175,18 @@
             "key":"hipy_t3_两个BT",
             "name":"两个BT(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/hipy/两个BT.py",
+            "api":"http://192.168.1.113:7129/files/hipy/两个BT.py",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":9,
-            "ext":"http://192.168.1.100:7129/files/hipy/两个BT.json"
+            "ext":"http://192.168.1.113:7129/files/hipy/两个BT.json"
         },
         {
             "key":"drpy_t3_央视综合",
             "name":"央视综合(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_js/央视综合.js",
+            "api":"http://192.168.1.113:7129/files/drpy_js/央视综合.js",
             "searchable":0,
             "quickSearch":0,
             "filterable":0,
@@ -197,18 +197,18 @@
             "key":"hipy_t3_哔滴影视",
             "name":"哔滴影视(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/hipy/哔滴影视.py",
+            "api":"http://192.168.1.113:7129/files/hipy/哔滴影视.py",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":10,
-            "ext":"http://192.168.1.100:7129/files/hipy/jars/bidi.jar"
+            "ext":"http://192.168.1.113:7129/files/hipy/jars/bidi.jar"
         },
         {
             "key":"drpy_t3_央视农业",
             "name":"央视农业(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_js/央视农业.js",
+            "api":"http://192.168.1.113:7129/files/drpy_js/央视农业.js",
             "searchable":0,
             "quickSearch":0,
             "filterable":0,
@@ -219,7 +219,7 @@
             "key":"hipy_t3_喵次元",
             "name":"喵次元(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/hipy/喵次元.py",
+            "api":"http://192.168.1.113:7129/files/hipy/喵次元.py",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
@@ -231,7 +231,7 @@
             "key":"hipy_t3_新浪资源",
             "name":"新浪资源(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/hipy/新浪资源.py",
+            "api":"http://192.168.1.113:7129/files/hipy/新浪资源.py",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
@@ -242,7 +242,7 @@
             "key":"hipy_t3_樱花动漫",
             "name":"樱花动漫(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/hipy/樱花动漫.py",
+            "api":"http://192.168.1.113:7129/files/hipy/樱花动漫.py",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
@@ -254,134 +254,134 @@
             "key":"drpy_t3_996影视",
             "name":"996影视(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":16,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/996影视.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/996影视.js"
         },
         {
             "key":"drpy_t3_农民影视",
             "name":"农民影视(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":18,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/农民影视.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/农民影视.js"
         },
         {
             "key":"drpy_t3_哔哩影视",
             "name":"哔哩影视(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":19,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/哔哩影视.js?render=1"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/哔哩影视.js?render=1"
         },
         {
             "key":"drpy_t3_爱看机器人",
             "name":"爱看机器人(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":52,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/爱看机器人.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/爱看机器人.js"
         },
 
         {
             "key":"drpy_t3_在线之家",
             "name":"在线之家(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":54,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/在线之家.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/在线之家.js"
         },
         {
             "key":"drpy_t3_兔小贝",
             "name":"兔小贝(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":0,
             "order_num":55,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/兔小贝.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/兔小贝.js"
         },
         {
             "key":"drpy_t3_555影视[飞]",
             "name":"555影视[飞](HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":1,
             "order_num":56,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/555影视[飞].js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/555影视[飞].js"
         },
         {
             "key":"drpy_t3_豆瓣",
             "name":"豆瓣(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":1,
             "filterable":1,
             "order_num":57,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/豆瓣.js?render=1"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/豆瓣.js?render=1"
         },
         {
             "key":"drpy_t3_qimiao",
             "name":"qimiao(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":0,
             "quickSearch":0,
             "filterable":0,
             "order_num":78,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/qimiao.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/qimiao.js"
         },
         {
             "key":"drpy_t3_freeok",
             "name":"freeok(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":0,
             "order_num":120,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/freeok.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/freeok.js"
         },
         {
             "key":"drpy_t3_厂长资源",
             "name":"厂长资源(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":0,
             "order_num":121,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/厂长资源.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/厂长资源.js"
         },
         {
             "key":"drpy_t3_耐看",
             "name":"耐看(HE影)",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
             "searchable":1,
             "quickSearch":0,
             "filterable":0,
             "order_num":122,
-            "ext":"http://192.168.1.100:7129/files/drpy_js/耐看.js"
+            "ext":"http://192.168.1.113:7129/files/drpy_js/耐看.js"
         },
 
 
@@ -454,22 +454,22 @@
             "key":"Live2Cms",
             "name":"直播转点播V2",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/live2cms.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/live2cms.js",
             "searchable":2,
             "quickSearch":0,
             "filterable":0,
-            "ext":"http://192.168.1.100:7129/files/json/live2mv_data.json",
+            "ext":"http://192.168.1.113:7129/files/json/live2mv_data.json",
             "order_num":9999
         },
         {
             "key":"Alist",
             "name":"Alist",
             "type":3,
-            "api":"http://192.168.1.100:7129/files/drpy_libs/alist.min.js",
+            "api":"http://192.168.1.113:7129/files/drpy_libs/alist.min.js",
             "searchable":2,
             "quickSearch":0,
             "filterable":0,
-            "ext":"http://192.168.1.100:7129/files/json/alist.json;200;video",
+            "ext":"http://192.168.1.113:7129/files/json/alist.json;200;video",
             "order_num":9999
         },
         {
@@ -1710,7 +1710,7 @@
         },
         {
             "name":"HE影20240601-解析1",
-            "url":"http://192.168.1.100:7129/parse/api/HE影11.js?url=",
+            "url":"http://192.168.1.113:7129/parse/api/HE影11.js?url=",
             "type":1,
             "ext":{
                 "flag":[
@@ -1742,7 +1742,7 @@
         },
         {
             "name":"HE影20240601-解析2",
-            "url":"http://192.168.1.100:7129/parse/api/盘古.js?url=",
+            "url":"http://192.168.1.113:7129/parse/api/盘古.js?url=",
             "type":1,
             "ext":{
                 "flag":[
@@ -1774,7 +1774,7 @@
         },
         {
             "name":"HE影20240601-解析3",
-            "url":"http://192.168.1.100:7129/parse/api/HE影3.js?url=",
+            "url":"http://192.168.1.113:7129/parse/api/HE影3.js?url=",
             "type":1,
             "ext":{
                 "flag":[
@@ -1806,7 +1806,7 @@
         },
         {
             "name":"HE影20240710-解析1",
-            "url":"http://192.168.1.100:7129/parse/api/HE影1.js?url=",
+            "url":"http://192.168.1.113:7129/parse/api/HE影1.js?url=",
             "type":1,
             "ext":{
                 "flag":[
@@ -1838,7 +1838,7 @@
         },
         {
             "name":"HE影20240710-解析2",
-            "url":"http://192.168.1.100:7129/parse/api/HE影2.js?url=",
+            "url":"http://192.168.1.113:7129/parse/api/HE影2.js?url=",
             "type":1,
             "ext":{
                 "flag":[
@@ -1870,7 +1870,7 @@
         },
         {
             "name":"HE影20240710-解析3",
-            "url":"http://192.168.1.100:7129/parse/api/夜幕.js?url=",
+            "url":"http://192.168.1.113:7129/parse/api/夜幕.js?url=",
             "type":1,
             "ext":{
                 "flag":[
@@ -1902,7 +1902,7 @@
         },
         {
             "name":"HE影20240710-解析4",
-            "url":"http://192.168.1.100:7129/parse/api/虾米.js?url=",
+            "url":"http://192.168.1.113:7129/parse/api/虾米.js?url=",
             "type":1,
             "ext":{
                 "flag":[
@@ -1934,7 +1934,7 @@
         },
         {
             "name":"HE影20240710-解析5",
-            "url":"http://192.168.1.100:7129/parse/api/CK.js?url=",
+            "url":"http://192.168.1.113:7129/parse/api/CK.js?url=",
             "type":1,
             "ext":{
                 "flag":[
@@ -1966,7 +1966,7 @@
         },
         {
             "name":"HE影20240710-解析6",
-            "url":"http://192.168.1.100:7129/parse/api/盘古.js?url=",
+            "url":"http://192.168.1.113:7129/parse/api/盘古.js?url=",
             "type":1,
             "ext":{
                 "flag":[
@@ -1999,7 +1999,7 @@
      
         {
             "name":"哔哩",
-            "url":"http://192.168.1.100:7129/parse/api/哔哩.js?url=",
+            "url":"http://192.168.1.113:7129/parse/api/哔哩.js?url=",
             "type":1,
             "ext":{
                 "flag":[
@@ -2089,11 +2089,11 @@
                 "header":[
                     {
                         "key":"Referer",
-                        "value":"http://192.168.1.100:7129"
+                        "value":"http://192.168.1.113:7129"
                     }
                 ],
                 "url":{
-                    "raw":"http://192.168.1.100:7129/hotsugg?t={time}"
+                    "raw":"http://192.168.1.113:7129/hotsugg?t={time}"
                 }
             },
             "response":{

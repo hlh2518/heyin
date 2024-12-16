@@ -1,5 +1,5 @@
 // 无搜索功能
-import { _ } from 'http://192.168.1.100:7129/files/drpy_libs/cat.js';
+import { _ } from 'http://192.168.1.113:7129/files/drpy_libs/cat.js';
 let key = 'HE影';
 let HOST = 'http://api.cntv.cn';
 let siteKey = '';

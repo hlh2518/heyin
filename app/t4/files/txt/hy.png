@@ -3,14 +3,14 @@
   "wallpaper":"http://www.kf666888.cn/api/tvbox/img",  
 	"hipy_sites_count": 31,
 	"mode": 1,
-	"spider": "http://192.168.1.100:7129/files/jar/heyin.jar;md5;77afa4f5b39be5550e2084012f4a65d8",
+	"spider": "http://192.168.1.113:7129/files/jar/heyin.jar;md5;77afa4f5b39be5550e2084012f4a65d8",
 	"homepage": "https://github.com/hjdhnx/hipy-server",
 	"lives": [{
 		"group": "redirect",
 		"channels": [{
 			"name": "🔥┃直播",
 			"urls": [
-				"proxy://do=live&type=txt&ext=http://192.168.1.100:7129/files/txt/zb.m3u"
+				"proxy://do=live&type=txt&ext=http://192.168.1.113:7129/files/txt/zb.m3u"
 			]
 		}]
 	}],
@@ -20,7 +20,7 @@
 			"name": "🔥┃豆瓣推荐┃HE影",
 			"type": 3,
 			"api": "csp_DouDou",
-			"jar": "http://192.168.1.100:7129/files/jar/HE影.jar",
+			"jar": "http://192.168.1.113:7129/files/jar/HE影.jar",
 			"searchable": 0,
 			"quickSearch": 0,
 			"filterable": 0
@@ -29,12 +29,12 @@
 			"key": "hipy_t3_cntv央视",
 			"name": "🔥┃央视大全┃HE影",
 			"type": 3,
-			"api": "http://192.168.1.100:7129/files/hipy/cntv央视.py",
+			"api": "http://192.168.1.113:7129/files/hipy/cntv央视.py",
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "http://192.168.1.100:7129/files/hipy/cntv央视.json"
+			"ext": "http://192.168.1.113:7129/files/hipy/cntv央视.json"
 		},
 
 
@@ -44,122 +44,122 @@
 			"key": "drpy_t3_爱奇艺",
 			"name": "🔥┃爱奇艺┃HE影",
 			"type": 3,
-			"api": "http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+			"api": "http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 1,
 			"order_num": 1,
-			"ext": "http://192.168.1.100:7129/files/drpy_js/爱奇艺.js"
+			"ext": "http://192.168.1.113:7129/files/drpy_js/爱奇艺.js"
 		},
 		{
 			"key": "drpy_t3_优酷",
 			"name": "🔥┃优酷┃HE影",
 			"type": 3,
-			"api": "http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+			"api": "http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 1,
 			"order_num": 2,
-			"ext": "http://192.168.1.100:7129/files/drpy_js/优酷.js"
+			"ext": "http://192.168.1.113:7129/files/drpy_js/优酷.js"
 		},
 		{
 			"key": "drpy_t3_腾讯视频",
 			"name": "🔥┃腾讯视频┃HE影",
 			"type": 3,
-			"api": "http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+			"api": "http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 1,
 			"order_num": 3,
-			"ext": "http://192.168.1.100:7129/files/drpy_js/腾讯视频.js"
+			"ext": "http://192.168.1.113:7129/files/drpy_js/腾讯视频.js"
 		},
 		{
 			"key": "drpy_t3_芒果TV",
 			"name": "🔥┃芒果TV┃HE影",
 			"type": 3,
-			"api": "http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+			"api": "http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 1,
 			"order_num": 4,
-			"ext": "http://192.168.1.100:7129/files/drpy_js/芒果TV.js"
+			"ext": "http://192.168.1.113:7129/files/drpy_js/芒果TV.js"
 		},
 		{
 			"key": "drpy_t3_腾讯视频2",
 			"name": "🔥┃腾讯视频2┃HE影",
 			"type": 3,
-			"api": "http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+			"api": "http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 1,
 			"order_num": 3,
-			"ext": "http://192.168.1.100:7129/files/drpy_js/腾讯视频2.js"
+			"ext": "http://192.168.1.113:7129/files/drpy_js/腾讯视频2.js"
 		},
 		{
 			"key": "drpy_t3_芒果视频",
 			"name": "🔥┃芒果视频┃HE影",
 			"type": 3,
-			"api": "http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+			"api": "http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 1,
 			"order_num": 3,
-			"ext": "http://192.168.1.100:7129/files/drpy_js/芒果视频.js"
+			"ext": "http://192.168.1.113:7129/files/drpy_js/芒果视频.js"
 		},
 		{
 			"key": "drpy_t3_360影视",
 			"name": "🔥┃360影视┃HE影",
 			"type": 3,
-			"api": "http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+			"api": "http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 0,
 			"order_num": 15,
-			"ext": "http://192.168.1.100:7129/files/drpy_js/360影视.js"
+			"ext": "http://192.168.1.113:7129/files/drpy_js/360影视.js"
 		},
 		{
 			"key": "drpy_t3_荐片",
 			"name": "🔥┃荐片┃HE影",
 			"type": 3,
-			"api": "http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+			"api": "http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 1,
 			"order_num": 11,
-			"ext": "http://192.168.1.100:7129/files/drpy_js/荐片.js"
+			"ext": "http://192.168.1.113:7129/files/drpy_js/荐片.js"
 		},
 		{
 			"key": "drpy_t3_B站资源",
 			"name": "🔥┃B站资源┃HE影",
 			"type": 3,
-			"api": "http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+			"api": "http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 1,
 			"order_num": 6,
-			"ext": "http://192.168.1.100:7129/files/drpy_js/B站资源.js"
+			"ext": "http://192.168.1.113:7129/files/drpy_js/B站资源.js"
 		},
 		{
 			"key": "drpy_t3_HE影哔哩",
 			"name": "🔥┃HE影哔哩┃HE影",
 			"type": 3,
-			"api": "http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+			"api": "http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 1,
 			"order_num": 7,
-			"ext": "http://192.168.1.100:7129/files/drpy_js/HE影哔哩.js"
+			"ext": "http://192.168.1.113:7129/files/drpy_js/HE影哔哩.js"
 		},
 		{
 			"key": "drpy_t3_HE影综合",
 			"name": "🔥┃HE影综合┃HE影",
 			"type": 3,
-			"api": "http://192.168.1.100:7129/files/drpy_libs/drpy2.min.js",
+			"api": "http://192.168.1.113:7129/files/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 1,
 			"order_num": 8,
-			"ext": "http://192.168.1.100:7129/files/drpy_js/HE影综合.js"
+			"ext": "http://192.168.1.113:7129/files/drpy_js/HE影综合.js"
 		},
 		
 		{
@@ -170,7 +170,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"jar": "http://192.168.1.100:7129/files/jar/HE影.jar",
+			"jar": "http://192.168.1.113:7129/files/jar/HE影.jar",
 			"ext": {
 				"搜索url": "https://www.diemi.cc/search/?wd={wd}",
 				"搜索链接": "href=\"&&\"",
@@ -287,7 +287,7 @@
 			"type": 3,
 			"searchable": 1,
 			"api": "csp_LiteApple",
-			"jar": "http://192.168.1.100:7129/files/jar/小米.jar",
+			"jar": "http://192.168.1.113:7129/files/jar/小米.jar",
 			"playerType": 1,
 			"filterable": 1
 		},
@@ -300,14 +300,14 @@
 			"searchable": 1,
 			"ua": "okhttp/3.15",
 			"quickSearch": 1,
-			"jar": "http://192.168.1.100:7129/files/jar/HE影.jar",
+			"jar": "http://192.168.1.113:7129/files/jar/HE影.jar",
 			"changeable": 1
 		},
 		{
 			"key": "csp_瓜子",
 			"name": "🔥┃ 小米影视┃HE影",
 			"api": "csp_Gz360",
-			"jar": "http://192.168.1.100:7129/files/jar/小米.jar",
+			"jar": "http://192.168.1.113:7129/files/jar/小米.jar",
 			"type": 3,
 			"searchable": 1,
 			"playerType": 2,
@@ -333,7 +333,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"jar": "http://192.168.1.100:7129/files/jar/HE影.jar",
+			"jar": "http://192.168.1.113:7129/files/jar/HE影.jar",
 			"ext": {
 				"简介": "HE影特别提醒您请勿相信影片中的广告，以免上当受骗❗+剧情介绍：&&</p >",
 				"分类url": "https://www.gymboreejn.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html[https://www.gymboreejn.com/vodtype/{cateId}.html]",
@@ -349,8 +349,8 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"jar": "http://192.168.1.100:7129/files/jar/HE影.jar",
-			"ext": "http://192.168.1.100:7129/files/json/nfzw.json"
+			"jar": "http://192.168.1.113:7129/files/jar/HE影.jar",
+			"ext": "http://192.168.1.113:7129/files/json/nfzw.json"
 		},
 		{
 			"key": "萌米",
@@ -360,7 +360,7 @@
 			"timeout": 15,
 			"ua": "okhttp/3.15",
 			"playerType": 1,
-			"jar": "http://192.168.1.100:7129/files/jar/HE影.jar",
+			"jar": "http://192.168.1.113:7129/files/jar/HE影.jar",
 			"ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
 		},
 		{
@@ -371,7 +371,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"jar": "http://192.168.1.100:7129/files/jar/HE影.jar",
+			"jar": "http://192.168.1.113:7129/files/jar/HE影.jar",
 			"ext": {
 				"影片年代": "<divclass=\"module-info-tag\">&&</div>",
 				"影片状态": "备注：&&</div>",
@@ -440,8 +440,8 @@
 			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0,
-			"jar": "http://192.168.1.100:7129/files/jar/HE影.jar",
-			"ext": "http://192.168.1.100:7129/files/json/少儿教育.json"
+			"jar": "http://192.168.1.113:7129/files/jar/HE影.jar",
+			"ext": "http://192.168.1.113:7129/files/json/少儿教育.json"
 		},
 		{
 			"key": "小学教育",
@@ -455,8 +455,8 @@
 			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0,
-			"jar": "http://192.168.1.100:7129/files/jar/HE影.jar",
-			"ext": "http://192.168.1.100:7129/files/json/小学教育.json"
+			"jar": "http://192.168.1.113:7129/files/jar/HE影.jar",
+			"ext": "http://192.168.1.113:7129/files/json/小学教育.json"
 		},
 		{
 			"key": "初中教育",
@@ -470,8 +470,8 @@
 			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0,
-			"jar": "http://192.168.1.100:7129/files/jar/HE影.jar",
-			"ext": "http://192.168.1.100:7129/files/json/初中教育.json"
+			"jar": "http://192.168.1.113:7129/files/jar/HE影.jar",
+			"ext": "http://192.168.1.113:7129/files/json/初中教育.json"
 		},
 		{
 			"key": "高中教育",
@@ -485,8 +485,8 @@
 			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0,
-			"jar": "http://192.168.1.100:7129/files/jar/HE影.jar",
-			"ext": "http://192.168.1.100:7129/files/json/高中教育.json"
+			"jar": "http://192.168.1.113:7129/files/jar/HE影.jar",
+			"ext": "http://192.168.1.113:7129/files/json/高中教育.json"
 		},
 		{
 			"key": "学习园地",
@@ -497,8 +497,8 @@
 			"ua": "okhttp/3.15",
 			"quickSearch": 1,
 			"filterable": 1,
-			"jar": "http://192.168.1.100:7129/files/jar/HE影.jar",
-			"ext": "http://192.168.1.100:7129/files/json/学生学习专区.json"
+			"jar": "http://192.168.1.113:7129/files/jar/HE影.jar",
+			"ext": "http://192.168.1.113:7129/files/json/学生学习专区.json"
 		},
 		{
 			"key": "学外语",
@@ -509,19 +509,19 @@
 			"ua": "okhttp/3.15",
 			"quickSearch": 1,
 			"filterable": 1,
-			"jar": "http://192.168.1.100:7129/files/jar/HE影.jar",
-			"ext": "http://192.168.1.100:7129/files/json/外语学习专区.json"
+			"jar": "http://192.168.1.113:7129/files/jar/HE影.jar",
+			"ext": "http://192.168.1.113:7129/files/json/外语学习专区.json"
 		},
 		{
 			"key": "hipy_t3_两个BT",
 			"name": "🔥┃两个BT┃HE影",
 			"type": 3,
-			"api": "http://192.168.1.100:7129/files/hipy/两个BT.py",
+			"api": "http://192.168.1.113:7129/files/hipy/两个BT.py",
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 1,
 			"order_num": 9,
-			"ext": "http://192.168.1.100:7129/files/hipy/两个BT.json"
+			"ext": "http://192.168.1.113:7129/files/hipy/两个BT.json"
 		},
 		{
 			"key": "CMS_非凡资源",
@@ -964,7 +964,7 @@
 		
 		{
 			"name": "🔥┃HE影20240601-解析1",
-			"url": "http://192.168.1.100:7129/parse/api/HE影11.js?url=",
+			"url": "http://192.168.1.113:7129/parse/api/HE影11.js?url=",
 			"type": 1,
 			"ext": {
 				"flag": [
@@ -996,7 +996,7 @@
 		},
 		{
 			"name": "🔥┃HE影20240601-解析2",
-			"url": "http://192.168.1.100:7129/parse/api/盘古.js?url=",
+			"url": "http://192.168.1.113:7129/parse/api/盘古.js?url=",
 			"type": 1,
 			"ext": {
 				"flag": [
@@ -1028,7 +1028,7 @@
 		},
 		{
 			"name": "🔥┃HE影20240601-解析3",
-			"url": "http://192.168.1.100:7129/parse/api/HE影3.js?url=",
+			"url": "http://192.168.1.113:7129/parse/api/HE影3.js?url=",
 			"type": 1,
 			"ext": {
 				"flag": [
@@ -1060,7 +1060,7 @@
 		},
 		{
 			"name": "🔥┃HE影20240710-解析1",
-			"url": "http://192.168.1.100:7129/parse/api/HE影1.js?url=",
+			"url": "http://192.168.1.113:7129/parse/api/HE影1.js?url=",
 			"type": 1,
 			"ext": {
 				"flag": [
@@ -1092,7 +1092,7 @@
 		},
 		{
 			"name": "🔥┃HE影20240710-解析2",
-			"url": "http://192.168.1.100:7129/parse/api/HE影2.js?url=",
+			"url": "http://192.168.1.113:7129/parse/api/HE影2.js?url=",
 			"type": 1,
 			"ext": {
 				"flag": [
@@ -1124,7 +1124,7 @@
 		},
 		{
 			"name": "🔥┃HE影20240710-解析3",
-			"url": "http://192.168.1.100:7129/parse/api/夜幕.js?url=",
+			"url": "http://192.168.1.113:7129/parse/api/夜幕.js?url=",
 			"type": 1,
 			"ext": {
 				"flag": [
@@ -1156,7 +1156,7 @@
 		},
 		{
 			"name": "🔥┃HE影20240710-解析4",
-			"url": "http://192.168.1.100:7129/parse/api/虾米.js?url=",
+			"url": "http://192.168.1.113:7129/parse/api/虾米.js?url=",
 			"type": 1,
 			"ext": {
 				"flag": [
@@ -1188,7 +1188,7 @@
 		},
 		{
 			"name": "🔥┃HE影20240710-解析5",
-			"url": "http://192.168.1.100:7129/parse/api/CK.js?url=",
+			"url": "http://192.168.1.113:7129/parse/api/CK.js?url=",
 			"type": 1,
 			"ext": {
 				"flag": [
@@ -1220,7 +1220,7 @@
 		},
 		{
 			"name": "🔥┃HE影20240710-解析6",
-			"url": "http://192.168.1.100:7129/parse/api/盘古.js?url=",
+			"url": "http://192.168.1.113:7129/parse/api/盘古.js?url=",
 			"type": 1,
 			"ext": {
 				"flag": [
@@ -1253,7 +1253,7 @@
 
 		{
 			"name": "🔥┃哔哩",
-			"url": "http://192.168.1.100:7129/parse/api/哔哩.js?url=",
+			"url": "http://192.168.1.113:7129/parse/api/哔哩.js?url=",
 			"type": 1,
 			"ext": {
 				"flag": [
@@ -1341,10 +1341,10 @@
 			"method": "GET",
 			"header": [{
 				"key": "Referer",
-				"value": "http://192.168.1.100:7129"
+				"value": "http://192.168.1.113:7129"
 			}],
 			"url": {
-				"raw": "http://192.168.1.100:7129/hotsugg?t={time}"
+				"raw": "http://192.168.1.113:7129/hotsugg?t={time}"
 			}
 		},
 		"response": {
